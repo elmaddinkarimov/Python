@@ -1,79 +1,21 @@
+# Unit 3 | Assignment - Py Me Up, Charlie
 
-# Matplotlib
-# Pyber
+## Background
 
-![Ride](Images/Ride.png)
+Well... you've made it!
 
-The ride sharing bonanza continues! Seeing the success of notable players like Uber and Lyft, you've decided to join a fledgling ride sharing company of your own. In your latest capacity, you'll be acting as Chief Data Strategist for the company. In this role, you'll be expected to offer data-backed guidance on new opportunities for market differentiation.
+It's time to put away the Excel sheet and join the big leagues. Welcome to the world of programming with Python. In this homework assignment, you'll be using the concepts you've learned to complete **2** Python Challenges, PyBank and PyPoll.
+Both of these challenges encompasses a real-world situation where your newfound Python scripting skills can come in handy. These challenges are far from easy so expect some hard work ahead!
 
-You've since been given access to the company's complete recordset of rides. This contains information about every active driver and historic ride, including details like city, driver count, individual fares, and city type.
+### Before You Begin
 
-Your objective is to build a [Bubble Plot](https://en.wikipedia.org/wiki/Bubble_chart) that showcases the relationship between four key variables:
+1. Create a new GitHub repo called `python-challenge`. Then, clone it to your computer.
 
-* Average Fare ($) Per City
-* Total Number of Rides Per City
-* Total Number of Drivers Per City
-* City Type (Urban, Suburban, Rural)
+2. Inside your local git repository, create a directory for both of the  Python Challenges. Use folder names corresponding to the challenges: **PyBank** and  **PyPoll**.
 
-In addition, you will be expected to produce the following three pie charts:
+3. Inside of each folder that you just created, add a new file called `main.py`. This will be the main script to run for each analysis.
 
-* % of Total Fares by City Type
-* % of Total Rides by City Type
-* % of Total Drivers by City Type
-
-
-# PANDAS
-# Heroes of Pymoli
-
-![Fantasy](Images/Fantasy.jpg)
-
-Congratulations! After a lot of hard work in the data munging mines, you've landed a job as Lead Analyst for an independent gaming company. You've been assigned the task of analyzing the data for their most recent fantasy game Heroes of Pymoli.
-
-Like many others in its genre, the game is free-to-play, but players are encouraged to purchase optional items that enhance their playing experience. As a first task, the company would like you to generate a report that breaks down the game's purchasing data into meaningful insights.
-
-Your final report should include each of the following:
-* Total Number of Players
-* Number of Unique Items
-* Average Purchase Price
-* Total Number of Purchases
-* Total Revenue
-* Percentage and Count of Male Players
-* Percentage and Count of Female Players
-* Percentage and Count of Other / Non-Disclosed
-
-* The below each broken by gender
-  * Purchase Count
-  * Average Purchase Price
-  * Total Purchase Value
-  * Average Purchase Total per Person by Gender
-
-* The below each broken into bins of 4 years (i.e. &lt;10, 10-14, 15-19, etc.)
-  * Purchase Count
-  * Average Purchase Price
-  * Total Purchase Value
-  * Average Purchase Total per Person by Age Group
-
-* Identify the the top 5 spenders in the game by total purchase value, then list (in a table):
-  * SN
-  * Purchase Count
-  * Average Purchase Price
-  * Total Purchase Value
-
-* Identify the 5 most popular items by purchase count, then list (in a table):
-  * Item ID
-  * Item Name
-  * Purchase Count
-  * Item Price
-  * Total Purchase Value
-
-* Identify the 5 most profitable items by total purchase value, then list (in a table):
-  * Item ID
-  * Item Name
-  * Purchase Count
-  * Item Price
-  * Total Purchase Value
-
-
+4. Push the above changes to GitHub.
 
 ## PyBank
 
@@ -109,8 +51,6 @@ are simple.)
   ```
 
 * In addition, your final script should both print the analysis to the terminal and export a text file with the results.
-
-
 
 ## PyPoll
 
@@ -151,3 +91,34 @@ The dataset is composed of three columns: `Voter ID`, `County`, and `Candidate`.
   ```
 
 * In addition, your final script should both print the analysis to the terminal and export a text file with the results.
+
+## Hints and Considerations
+
+* Consider what we've learned so far. To date, we've learned how to import modules like `csv`; to read and write files in various 
+formats; to store contents in variables, lists, and dictionaries; to iterate through basic data structures; and to debug along the way.
+ Using what we've learned, try to break down you tasks into discrete mini-objectives. This will be a _much_ better course of action than
+ attempting to Google Search for a miracle.
+
+* As you will discover, for some of these challenges, the datasets are quite large. This was done purposefully, as it showcases one
+ of the limits of Excel-based analysis. While our first instinct, as data analysts, is often to head straight into Excel, creating 
+ scripts in Python can provide us with more robust options for handling "big data".
+
+* Your scripts should work for each dataset provided. Run your script for each dataset separately to make sure that the code works
+ for different data.
+
+* Feel encouraged to work in groups, but don't shortchange yourself by copying someone else's work. You get what you put in, and
+ the art of programming is extremely unforgiving to moochers. Dig your heels in, burn the night oil, and learn this while you can! 
+ These are skills that will pay dividends in your future career.
+
+* Start early, and reach out for help often! Challenge yourself to identify _specific_ questions for your instructors and TAs.
+ Don't resign yourself to simply saying, "I'm totally lost." Come prepared to show your effort and thought patterns, we'll be 
+ happy to help along the way.
+
+* Always commit your work and back it up with GitHub pushes. You don't want to lose hours of your work because you didn't push 
+it to GitHub every half hour or so.
+
+  * **Commit often**.
+
+## Copyright
+
+Trilogy Education Services © 2018. All Rights Reserved.
